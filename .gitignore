@@ -1,0 +1,14 @@
+# HBuilderX / uni-app 自动编译生成目录
+unpackage/
+.hbuilderx/
+
+# 依赖包与系统临时文件
+node_modules/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

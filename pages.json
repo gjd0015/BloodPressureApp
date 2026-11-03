@@ -1,0 +1,63 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "血压健康管家",
+        "navigationBarBackgroundColor": "#0f172a",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f8fafc"
+      }
+    },
+    {
+      "path": "pages/chart/chart",
+      "style": {
+        "navigationBarTitleText": "趋势分析",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#f8fafc"
+      }
+    },
+    {
+      "path": "pages/history/history",
+      "style": {
+        "navigationBarTitleText": "测量历史",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#f8fafc"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "血压管家",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f8fafc"
+  },
+  "tabBar": {
+    "color": "#64748b",
+    "selectedColor": "#059669",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "记录",
+        "iconPath": "static/tab_record.png",
+        "selectedIconPath": "static/tab_record_active.png"
+      },
+      {
+        "pagePath": "pages/chart/chart",
+        "text": "趋势",
+        "iconPath": "static/tab_chart.png",
+        "selectedIconPath": "static/tab_chart_active.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史",
+        "iconPath": "static/tab_history.png",
+        "selectedIconPath": "static/tab_history_active.png"
+      }
+    ]
+  }
+}

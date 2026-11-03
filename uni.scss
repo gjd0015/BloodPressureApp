@@ -1,0 +1,31 @@
+/**
+ * 全局 SCSS 变量与基础色彩规范
+ */
+
+/* 核心品牌色 (清新健康绿) */
+$uni-color-primary: #059669;
+$uni-color-success: #10b981;
+$uni-color-warning: #f59e0b;
+$uni-color-error: #ef4444;
+$uni-color-info: #64748b;
+
+/* 文字颜色 */
+$uni-text-color: #0f172a;
+$uni-text-color-inverse: #ffffff;
+$uni-text-color-grey: #64748b;
+$uni-text-color-placeholder: #94a3b8;
+$uni-text-color-disable: #cbd5e1;
+
+/* 背景颜色 */
+$uni-bg-color: #ffffff;
+$uni-bg-color-grey: #f8fafc;
+$uni-bg-color-mask: rgba(0, 0, 0, 0.6);
+
+/* 边框颜色 */
+$uni-border-color: #e2e8f0;
+
+/* 圆角 */
+$uni-border-radius-sm: 8rpx;
+$uni-border-radius-base: 16rpx;
+$uni-border-radius-lg: 28rpx;
+$uni-border-radius-circle: 50%;
